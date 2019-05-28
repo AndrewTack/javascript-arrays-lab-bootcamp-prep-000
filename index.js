@@ -34,6 +34,6 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  let newArray = kittens.slice(0, kittens.length-1)
+  let newArray = kittens.slice(1)
   return newArray
 }
